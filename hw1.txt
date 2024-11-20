@@ -1,0 +1,12 @@
+I used DuckDuckGo for my search engine, as Yahoo was running into blocking/connectivity issues. 
+I still used the assigned 100QueriesSet2 for my query set. 
+The average number of overlapping results over all queries was 1.98.
+The average percent overlap over all queries was 19.8%. 
+The average Spearman coefficient over all queries was -1.4812857142857100. 
+
+Assuming that the results from Google are the standard, the averages regarding overlap are rather low. 
+This suggests that DuckDuckGo could be a lower quality search engine in comparison. 
+Our Spearman coefficient average is also  negative/low. 
+This suggests that DuckDuckGo has dissimilar rankings with Google. 
+Overall, these results suggest that DuckDuckGo is a lower quality search engine 
+with dissimilar rankings when compared to Google. 

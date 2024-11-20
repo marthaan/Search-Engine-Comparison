@@ -1,0 +1,30 @@
+assigned set 2 and Yahoo
+
+goal: compare search results b/w Google & Yahoo
+will use given query set for Yahoo & test for overlap/correlation of results 
+
+note: don't spell check queries (leave as is)
+
+google results --> key = query, values = list of 10 search results, represented by a URL
+1st elt in list = top result, last = last result 
+
+overlap = identical result (even if not also 1st result, etc.)
+% of identical results = measure of quality of Yahoo
+run each query, capture top 10 results (URLs), compute overlap score (ok if < 10 results)
+
+correlation = Spearman's rank correlation coefficient (AKA Spearman's rho) 
+            = a measure of the statistical dependence b/w rankings of 2 variables
+see formula for r_s 
+            d_i = diff b/w the 2 rankings
+            n = # of observations 
+Spearman high --> similar rank, low --> dissimilar rank
+Spearman postiive --> similar rank, negative --> dissimilar rank
+
+
+OH:
+- script takes a long time to run, but seems to work - fine? 
+- script ad blocking
+- turning in task2 program or just the csv?
+- passing object type for methods in task 2 (i.e., easier to do a list or the query)
+- rename files 
+- need to submit extra txt file w/ results summary 
